@@ -1,0 +1,230 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link th:href="@{/css/app1.css}" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>CHQA Search</h2>
+        <div>
+
+            <form action="#" th:action="@{/home}" method="post" th:onject="${search}">
+                <input type="text" th:field="${search.question}" size="100" placeholder="Search Text"/>
+                
+                <br/><br/>
+                
+                <h3>Question Focus</h3>
+                <table>
+                    <tr>
+                        <td>Title</td>
+                        <td>                
+                            <input type="text" th:field="${search.title}" size="100" placeholder="Comma seperated values"/>
+                        </td>
+                        <td>
+                            <input type="text" th:field="${search.titleWeight}" size="5" placeholder="Weight"/>                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Text</td>
+                        <td>                
+                            <input type="text" th:field="${search.text}" size="100" placeholder="Comma seperated values"/>
+                        </td>
+                        <td>                
+                            <input type="text" th:field="${search.textWeight}" size="5" placeholder="Weight"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Concept</td>
+                        <td>                
+                            <input type="text" th:field="${search.concept}" size="100" placeholder="Comma seperated values"/>
+                        </td>
+                        <td>                
+                            <input type="text" th:field="${search.conceptWeight}" size="5" placeholder="Weight"/>
+                        </td>
+                    </tr>
+                </table>
+                
+                <h3>Question Type</h3>
+                <table>
+                    <tr>
+                        <td>Title</td>
+                        <td>                
+                            <input type="text" th:field="${search.titleType}" size="100" placeholder="Comma seperated values"/>
+                        </td>
+                        <td>
+                            <input type="text" th:field="${search.titleTypeWeight}" size="5" placeholder="Weight"/>                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Text</td>
+                        <td>                
+                            <input type="text" th:field="${search.textType}" size="100" placeholder="Comma seperated values"/>
+                        </td>
+                        <td>                
+                            <input type="text" th:field="${search.textTypeWeight}" size="5" placeholder="Weight"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Concept</td>
+                        <td>                
+                            <input type="text" th:field="${search.conceptType}" size="100" placeholder="Comma seperated values"/>
+                        </td>
+                        <td>                
+                            <input type="text" th:field="${search.conceptTypeWeight}" size="5" placeholder="Weight"/>
+                        </td>
+                    </tr>
+                </table>
+
+                <br/><br/>
+                
+                <button type="submit" th:field="${search.action}" value="search">Search</button>
+                <button type="submit" th:name="action" value="clear">Clear</button>
+                
+                <br/><br/>
+            </form>
+            <form action="submiteval" method='post' >
+                                                
+                <span th:if="${search.multiCoreResults != null and !search.multiCoreResults.isEmpty()}">
+                    <div><b>Metamap Lite Entities</b></div>
+                    <div th:each="term: ${search.terms}">
+                        <span th:text="${term}"></span>
+                    </div>
+                    <br>
+                    <!--    
+                    <input type="submit" th:name="action" th:value="${'Previous 50'}"/>
+                    Total results <span th:text="${search.totalResults}"></span>, Showing
+                    <input type="text" th:field="${search.start}" size="2" /> 
+                    To 
+                    <input type="text" th:field="${search.end}" size="2" />
+                    <input type="submit" th:name="action" th:value="${'Next 50'}"/>
+                    
+                    <br/><br/>
+                    -->                    
+                </span>
+                <span th:if="${search.multiCoreResults != null and !search.multiCoreResults.isEmpty()}">
+                    <div><b>Metamap Lite Concepts</b></div>
+                    <div th:each="concept : ${search.concepts}">
+                        <span th:text="${concept}"></span>
+                    </div>
+                    <br>
+                    <!--    
+                    <input type="submit" th:name="action" th:value="${'Previous 50'}"/>
+                    Total results <span th:text="${search.totalResults}"></span>, Showing
+                    <input type="text" th:field="${search.start}" size="2" /> 
+                    To 
+                    <input type="text" th:field="${search.end}" size="2" />
+                    <input type="submit" th:name="action" th:value="${'Next 50'}"/>
+                    
+                    <br/><br/>
+                    -->                    
+                </span>
+                <div>
+                    <div th:if="${search.end == 50 and (search.results == null or search.results.isEmpty())}">
+                        Type search term
+                    </div>
+                    <div th:if="${search.end > 50 and (search.results == null or search.results.isEmpty())}">
+                        No more results found.  
+                    </div>
+                    
+                    <hr>
+
+                    <div style="widht:100%; height:inherit; clear:both; display:table">
+                    <div th:each="multiCoreResult,iterator1 : ${search.multiCoreResults}" style="float:left; display: inline-block;" th:styleappend="'width: calc('+ ${search.width} + ' - 1px)'">                                                                            
+                    <div th:each="result,iterator  : ${multiCoreResult}">
+                        
+                        <div class="title">
+                            <span th:text="${(iterator.index + search.start)}" style="display: none;"></span>
+                            [<span th:utext="${result.source}">Source</span>]
+                            <span th:if="${not #strings.isEmpty(result.pageTitle)}">
+                                (<span th:utext="${result.pageTitle}">Title</span>)
+                            </span>
+
+                            <span th:utext="${result.title}">Title</span>
+                        </div>
+                        <span th:if="${not #strings.isEmpty(result.url)}">
+                            <b>URL:</b>
+                            <a th:href="${result.url}" target="_blank">
+                                <span th:text="${result.url}">URL</span>
+                            </a>
+                        </span>
+                        <span th:if="${not #strings.isEmpty(result.id)}">
+                            <br>
+                            <b>ID:</b><span th:text="${result.id}">ID</span>
+                        </span>
+                        <!-- Full Text -->
+                        
+                        <br>
+                        <b><u>Parent Doc Text</u></b>
+                        <div th:utext="${result.parentText}">Text</div>                                                  
+                        <br>
+                        
+                        <br>        
+                        <b><u>Section Doc Text</u></b>                                
+                        <div th:utext="${result.text}">Text</div> 
+                           
+                        <br>
+                            <span th:utext="'<input type=\'hidden\' id=\'answer_'+ ${iterator.index} +'\' name=\'answer_'+ ${iterator.index} +'\' value=\'' + ${result.id}+ '\'/>'"></span>    
+<!--                        <input type:"hidden" th:id="'answer_' + ${iterator.index}" th:field="'questionID_' + ${iterator.index}" /> -->
+                        <select th:id="'eval_' + ${iterator.index}" th:name="'eval_' + ${iterator.index}" size="1" placeholder="evaluation">  
+                            <option value="" text="">--Select--</option>
+                            <option value="4" text="Correct and Complete Answer">Correct and Complete Answer</option>
+                            <option value="3" text="Correct but Incomplete">Correct but Incomplete</option>
+                            <option value="2" text="Incorrect but Related">Incorrect but Related</option>
+                            <option value="1" text="Incorrect">Incorrect</option>
+                            <option value="0" text="Junk">Junk</option>
+                        </select>
+                                                
+                        <hr>
+                        
+                        <div th:utext="${result.textPieces}">Text</div>    
+                        <br/><br/>
+
+                    </div>
+                    </div>
+                    </div>
+                       
+                    <input type="hidden" th:field="${search.question}" id="question"/>
+                    
+                    <input type="hidden" th:field="${search.text}" id="text"/>
+                    <input type="hidden" th:field="${search.textWeight}" id="textWeight"/>
+                    <input type="hidden" th:field="${search.title}" id="title"/>
+                    <input type="hidden" th:field="${search.titleWeight}" id="titleWeight"/>
+                    <input type="hidden" th:field="${search.concept}" id="concept"/>
+                    <input type="hidden" th:field="${search.conceptWeight}" id="conceptWeight"/>
+                    <input type="hidden" th:field="${search.textType}" id="textType"/>
+                    <input type="hidden" th:field="${search.textTypeWeight}" id="textTypeWeight"/>
+                    <input type="hidden" th:field="${search.titleType}" id="titleType"/>
+                    <input type="hidden" th:field="${search.titleTypeWeight}" id="titleTypeWeight"/>
+                    <input type="hidden" th:field="${search.conceptType}" id="conceptType"/>
+                    <input type="hidden" th:field="${search.conceptTypeWeight}" id="conceptTypeWeight"/>
+                    <input type="text" th:field="${search.conceptID}" id="conceptID" placeholder="CONCEPT ID"/>   
+                    <br><br>
+                    <input type="submit" value="submit evalauation"/>    
+                </div>
+                <br/><br/>
+              
+                
+            </form>
+        
+                <span th:if="${search.results != null and !search.results.isEmpty()}">
+
+                    <input type="submit" th:name="action" th:value="${'Previous 50'}"/>
+                    Total results <span th:text="${search.totalResults}"></span>, Showing
+                    <input type="text" th:field="${search.start}" size="2" /> 
+                    To 
+                    <input type="text" th:field="${search.end}" size="2" />
+                    <input type="submit" th:name="action" th:value="${'Next 50'}"/>
+
+                    <br/><br/>
+                                        
+                </span>
+        </div>
+    </body>
+</html>

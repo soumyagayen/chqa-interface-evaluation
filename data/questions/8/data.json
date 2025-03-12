@@ -1,0 +1,188 @@
+{
+  "questionID": "1",
+  "introduction": "Your elbow started hurting after you played tennis some time back. You took some Aleve, but the pain is not going away.",
+  "question": "what can be done for severe elbow pain?",
+  "answers": [
+    {
+      "text": "Elbow pain may be caused by inflammation and injuries. If your elbow is just sore, try resting, placing a heating pad or hot pack around your elbow, gently stretching your muscles, or wearing a brace.",
+      "ref": [
+        {
+          "title": "Quick fixes for aching elbows",
+          "corpus": "harvard",
+          "url": "https://www.health.harvard.edu/pain/quick-fixes-for-aching-elbows"
+        }
+      ]
+    },
+    {
+      "text": "Some doctors recommend using ice.",
+      "ref": [
+        {
+          "title": "How to Treat Elbow Arthritis",
+          "corpus": "pennmedicine",
+          "url": "https://www.pennmedicine.org/for-patients-and-visitors/find-a-program-or-service/orthopaedics/elbow-pain/elbow-arthritis"
+        }
+      ]
+    },
+    {
+      "text": "Give yourself a few days rest and take over-the-counter pain relievers. If this doesn't help, your doctor may suggest physical therapy, steroid injections, and surgery.",
+      "ref": [
+        {
+          "title": "Elbow Pain: Causes & Treatment",
+          "corpus": "clevelandclinic",
+          "url": "https://my.clevelandclinic.org/health/symptoms/elbow-pain"
+        }
+      ]
+    },
+    {
+      "text": "Gently try to move the elbow and increase your range of motion. If this hurts or you cannot move the elbow, contact your health care provider.",
+      "ref": [
+        {
+          "title": "Elbow pain: MedlinePlus Medical Encyclopedia",
+          "corpus": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/003172.htm"
+        }
+      ]
+    },
+    {
+      "text": "Treatment depends on:The location and type of injury, and how bad it is.How long ago the injury occurred.Your age, health condition, and activities, such as work, sports, or hobbies. Alternative treatments that show promise include acupuncture, High-Intensity Laser Therapy (HILT), botulinum toxin and bone marrow injections.",
+      "ref": [
+        {
+          "title": "Elbow Injuries Information & Treatment",
+          "corpus": "ColumbiaDoctors",
+          "url": "https://www.columbiadoctors.org/health-library/symptom/elbow-injuries/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Elbow injuries ",
+      "url": "https://medlineplus.gov/elbowinjuriesanddisorders.html"
+    },
+    {
+      "name": "image2",
+      "title": "platelet-rich plasma treatment for tennis elbow",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4767828_gr2&query=tennis%20elbow&it=xg&req=4&npos=53"
+    },
+    {
+      "name": "image3",
+      "title": "bursitis resolves without antimicrobials or surgical intervention",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4672609_gr1&query=elbow%20bursitis&it=xg&req=4&npos=3"
+    },
+    {
+      "name": "image4",
+      "title": "corticosteroids for elbow pain",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4799438_gr3&query=tennis%20elbow&it=xg&req=4&npos=11"
+    },
+    {
+      "name": "image5",
+      "title": "Discoloration after steroid injection for tennis elbow.",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4942522_JCHIMP-6-31814-g001&query=tennis%20elbow&it=xg&req=4&npos=2"
+    }
+  ],
+  "related-info": [
+    {
+      "title": "Quick fixes for aching elbows",
+      "corpus": "harvard",
+      "url": "https://www.health.harvard.edu/pain/quick-fixes-for-aching-elbows"
+    },
+    {
+      "title": "How to Treat Elbow Arthritis",
+      "corpus": "pennmedicine",
+      "url": "https://www.pennmedicine.org/for-patients-and-visitors/find-a-program-or-service/orthopaedics/elbow-pain/elbow-arthritis"
+    },
+    {
+      "title": "Elbow Pain: Causes & Treatment",
+      "corpus": "clevelandclinic",
+      "url": "https://my.clevelandclinic.org/health/symptoms/elbow-pain"
+    },
+    {
+      "title": "Elbow pain: MedlinePlus Medical Encyclopedia",
+      "corpus": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/003172.htm"
+    },
+    {
+      "title": "Elbow Injuries Information & Treatment",
+      "corpus": "ColumbiaDoctors",
+      "url": "https://www.columbiadoctors.org/health-library/symptom/elbow-injuries/"
+    }
+  ],
+  "clinical-evidence": [
+    {
+      "title": "Current Trends for Treating Lateral Epicondylitis",
+      "text": "Review in Clin Shoulder Elb. 2019. Kim et al. Department of Orthopedic Surgery, Jeju National University Hospital, Jeju National University School of Medicine, Jeju, Korea.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33330224/"
+    },
+    {
+      "title": "Medial Elbow Pain Syndrome: Current Treatment Strategies",
+      "text": "Review in Orthopedics. 2023. Prabhakar et al., Department of Orthopedic Surgery, University of Texas",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35876779/"
+    },
+    {
+      "title": "An Overview of the Pathogenesis and Treatment of Elbow Osteoarthritis",
+      "text": "Review in J Funct Morphol Kinesiol. 2019. Ravalli at al. University of Catania, Italy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33467345/"
+    },
+    {
+      "title": "The Effect of Acupuncture on Elbow Joint Sports Injuries Based on Magnetic Resonance Imaging",
+      "text": "Randomized Controlled Trial  Comput Math Methods Med. 2022, Yang and Wang, Henan, China.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35419078/"
+    },
+    {
+      "title": "Effectiveness of High-Intensity Laser Therapy Plus Ultrasound-Guided Peritendinous Hyaluronic Acid Compared to Therapeutic Exercise for Patients with Lateral Elbow Tendinopathy.",
+      "text": "J Clin Med. 2022. Pellegrino et al., Semmelweis University, Switzerland.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36233361/"
+    }
+  ],
+  "task": [
+    {
+      "question": "Your elbow started hurting after you played tennis some time back. You took some Aleve, but the pain is not going away. Given the answers about severe elbow pain you found at the NLM site, what will you do:",
+      "options": [
+        "Give your elbow some rest, apply hot or cold, take more painkillers",
+        "Ask your doctor for advice",
+        "Ask your doctor for steroid injection",
+        "Ask your doctor about the experimental treatments such as acupuncture",
+        "Ask your doctor to refer you to see a surgeon"
+      ]
+    }
+  ],
+  "survey": [
+    {
+      "question": "You based your decision on (check as many as are applicable):",
+      "options": [
+        "Information for patients",
+        "Clinical evidence",
+        "Images"
+      ]
+    },
+    {
+      "question": "You found the answer was good and you did not need to look at the evidence",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "question": "You found the answer was supported by the linked documents",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "question": "You found the answer was good and you did not need to look at the evidence",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "question": "If you knew the answer was generated by AI and the documents were found automatically, would you change the above answers?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    }
+  ]
+}

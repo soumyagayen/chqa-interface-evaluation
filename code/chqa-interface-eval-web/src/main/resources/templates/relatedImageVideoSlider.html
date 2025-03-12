@@ -1,0 +1,20 @@
+    <div class="related-image-video-wrapper clearfix">
+
+        <div class="heading">                                
+            Related
+            <span class="icon image-carousel-button selected">
+                <img src="/chqa/images/related-image-icon.svg" alt="logo"/>
+                images
+            </span>             
+        </div> 
+        <div onclick="handleClick('previous')" class="arrow-button arrow-up">
+            <i class="fa-solid fa-caret-up fa-2x"  click-id="imageAndVideo-scroll-up"></i><!-- comment -->         
+        </div>
+        <div class="">
+            <div th:insert="imageAndVideo" class="image-list"></div>
+        </div>
+        <div onclick="handleClick('next')" class="arrow-button arrow-down">
+            <i class="fa-solid fa-caret-down fa-2x" click-id="imageAndVideo-scroll-down"></i><!-- comment -->         
+        </div>
+
+    </div> 

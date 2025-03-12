@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CHQA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="lib\bootstrap\dist\js\bootstrap.js"></script>
+        <script src="js/masonry.pkgd.js" crossorigin="anonymous" async></script>
+        <script src="lib/carousel/scripts.js" crossorigin="anonymous" async></script>
+        <script src="js/jquery-3.7.1.js" crossorigin="anonymous"></script>
+        <script src="js/app.js" crossorigin="anonymous" async></script>
+    </head>
+    <body>
+        <div th:insert="header"></div>
+        <div class="results">
+            <div class="container-fluid">
+                <div class="row"> 
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 question clearfix">
+                        <div class="margin">
+                            <img src="/chqa/images/q-logo.svg" alt="logo" align="left" class="alignImg"/>
+                        </div>
+                        <div class="content">
+                            how to treat throat pain?
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" container-fluid">
+                <div class="row"> <!-- data-masonry='{"percentPosition": true }'> -->
+                    
+                    <div class="answer col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-1 clearfix">
+                        <div class="margin">
+                            <img src="/chqa/images/a-logo.svg" alt="logo" align="left" class="alignImg"/>
+                        </div>
+                        <div class="content clearfix">
+                             How is it treated? Doctors <b>treat</b> back <b>pain</b> with <b>medications</b>, other <b>treatments</b>, and <b>surgery</b>. <b>Medications</b> may <b>help</b> <b>relieve</b> <b>pain</b> or <b>help</b> tense muscles relax. In addition, your doctor may tell you to:           Use cold packs to <b>help</b> lower some back <b>pain</b> and hot packs to increase blood flow and <b>help</b> you <b>heal</b>. Limit activities or exercise that cause <b>pain</b> or make it worse, but do not lay down all day.
+                        </div>
+                    </div> 
+                    <div class="related-image-video col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-2 clearfix">
+                        <div class="clearfix">
+                            <div class="heading">                                
+                                Related
+                                    <span class="icon image-carousel-button selected">
+                                        <img src="/chqa/images/related-image-icon.svg" alt="logo"/>
+                                        images
+                                    </span> 
+                                    and 
+                                    <span class="icon video-carousel-button">
+                                        <img src="/chqa/images/related-video-icon.svg" alt="logo"/>
+                                        videos
+                                    </span>                                
+                            </div> 
+                            <div class="">
+                                <div th:insert="carousel" class="image-carousel"></div>
+                                <div th:insert="carousel" class="video-carousel" style="display: none;"></div>
+                            </div>
+                            
+                        </div> 
+                    </div>
+                </div>    
+                <div class="row">    
+                    <div class="related-info col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-3 clearfix">                                                
+                        <div class="heading-box">
+                            <div class="heading">Related Patient Information</div>
+                        </div>
+                        <div class="clearfix item template">                            
+                            <div class="margin">
+                                <img src="/chqa/images/related-answer-logo.svg" alt="logo" align="left" class="alignImg"/>
+                            </div>
+                            <div class="content clearfix">
+                                <div class="text crop-text-3">template-text</div>
+                                <div class="title-url" style="display: none;">
+                                    <div><a href="template-url">template-title</a></div>
+                                </div>
+                                <div class="show-more-less clearfix">
+                                    <span class="more">+ show more</span>
+                                    <span class="less" style="display: none;">- show less</span>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                                                        
+
+                    <div class="related-research col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-4 clearfix">
+                        <div class="heading-box">
+                            <div class="heading">
+                                <span class="icon">
+                                    &nbsp; &nbsp; Related Research  ... &nbsp;&nbsp;
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>                                            
+                </div>
+            </div>            
+        </div>
+        <footer th:insert="footer"></footer>
+    </body>
+    <link rel="stylesheet"  href="css\app.css" />
+    <link rel="stylesheet"  href="lib\bootstrap\dist\css\bootstrap.css" />
+    <link rel="stylesheet"  href="lib\fontawesome\css\fontawesome.min.css" />
+    <link rel="stylesheet"  href="lib\fontawesome\css\solid.min.css" />
+    <link rel="stylesheet"  href="lib\fontawesome\css\brands.min.css" />
+
+</html>

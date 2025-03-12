@@ -1,0 +1,81 @@
+
+.carousel
+{
+    @media (max-width: 767px) {
+        .carousel-inner .carousel-item > div {
+            display: none;
+        }
+        .carousel-inner .carousel-item > div:first-child {
+            display: block;
+        }
+    }
+
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+
+    /* medium and up screens */
+    @media (min-width: 768px) {
+
+        .carousel-inner .carousel-item-end.active,
+        .carousel-inner .carousel-item-next {
+            transform: translateX(25%);
+        }
+
+        .carousel-inner .carousel-item-start.active,
+        .carousel-inner .carousel-item-prev {
+            transform: translateX(-25%);
+        }
+    }
+
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start {
+        transform: translateX(0);
+    }
+    
+    .card
+    {
+        height: 100px;
+        position: relative;
+        .card-img
+        {            
+            height: calc(100% - 5px);
+            width: calc(100% - 5px); 
+            min-width: 100px;
+            text-align: center;
+            img
+            {
+                margin: 0px auto;
+                width: 100px;
+            }
+
+        }
+    }
+    
+    .carousel-inner
+    {
+        padding: 0px 50px;
+    }
+    
+    .carousel-control-next, .carousel-control-prev
+    {
+        width: 34px;        
+        background-color: lightskyblue;
+        .fa-circle
+        {
+            background-color: transparent;
+            border-radius: 50%;
+            border: 2px solid #326295;
+            top: -1px;
+        }
+        
+        .fa-arrow-right, .fa-arrow-left
+        {
+            color: #326295;
+        }
+    }
+
+
+}

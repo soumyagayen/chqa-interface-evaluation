@@ -1,0 +1,143 @@
+{
+  "questionID":"118",
+  "introduction":"A gnat got into your eye, and you got it out. You feel you might have a minor abrasion, which you washed out with water. You've heard that minor scratches will heal on their own. You don't remember how long that will take and at what time you will need to see a doctor.",
+  "question": "How long does a minor cornea injury take to heal without medical attention?",
+  "answers": [
+    {
+      "text": "Most corneal injuries heal in 24 to 72 hours.",
+      "ref": [
+          {
+          "title":"Corneal Abrasion",
+          "text":"",
+          "corpus":"yalemedicine",
+          "url":"https://www.yalemedicine.org/conditions/corneal-abrasion "
+        },
+        {
+          "title":"Management of corneal abrasions",
+          "text":"Review in Am Fam Physician. 2004 Jul 1; University of Pittsburgh Medical Center St. Margaret Family Practice Residency Program, Pittsburgh, Pennsylvania 15215, USA. wilsons2@upmc.edu",
+          "corpus":"pubmed",
+          "url":"https://pubmed.ncbi.nlm.nih.gov/15259527/"
+        }
+      ]
+    },
+    {
+      "text": "If the injury is greater than 4mm and vision is not getting better, a doctor should evaluate it again after 24 hours.",
+      "ref": [
+          {
+          "title":"When should I get urgent care for a scratched cornea?",
+          "text":"",
+          "corpus": "columbiaclinic",
+          "url":"https://www.columbiaclinic.com/scratched-cornea"
+        },
+        {
+          "title":"Corneal Abrasion",
+          "text":"",
+          "corpus": "clevelandclinic",
+          "url":"https://my.clevelandclinic.org/health/diseases/14423-corneal-abrasion"
+        }
+      ]
+    },
+    {
+      "text": "Severe injuries might need two weeks of treatment or more.",
+      "ref": [
+          {
+          "title":"Corneal Abrasion and Erosion",
+          "text":"",
+          "corpus": "aao",
+          "url":"https://www.aao.org/eye-health/diseases/what-is-corneal-abrasion"
+        },
+        {
+          "title":"Wound healing in the eye: Therapeutic prospects",
+          "text":"Review in Adv Drug Deliv Rev. 2018 Feb 15; University of Auckland, Department of Ophthalmology, New Zealand National Eye Centre, New Zealand.",
+          "corpus":"pubmed",
+          "url":"https://pubmed.ncbi.nlm.nih.gov/29355667/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Delayed corneal epithelial healing after intravitreal bevacizumab",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC3306063_jovr-6-1-018f1"
+    },
+    {
+      "name": "image2",
+      "title": "The effects of acacia honey on in vitro corneal abrasion wound healing model",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4340287_12860_2015_53_Fig1_HTML"
+    },
+    {
+      "name": "image3",
+      "title": "A new eye gel containing sodium hyaluronate and xanthan gum for the management of post-traumatic corneal abrasions",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC3363309_opth-6-727f1"
+    },
+    {
+      "name": "image4",
+      "title": "Sodium hyaluronate eye drops treatment for superficial corneal abrasion caused by mechanical damage",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4322606_dddt-9-687Fig4"
+    },
+    {
+      "name": "image5",
+      "title": "Comparison of the Anti-Inflammatory Effects of Artificial Tears in a Rat Model of Corneal Scraping",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4779975_fig-1"
+    }    
+  ],
+  "related-info":[
+    {
+      "title":"Corneal Abrasion",
+      "corpus":"yalemedicine",
+      "url":"https://www.yalemedicine.org/conditions/corneal-abrasion "
+    },
+    {
+      "title":"When should I get urgent care for a scratched cornea?",
+      "corpus": "columbiaclinic",
+      "url":"https://www.columbiaclinic.com/scratched-cornea"
+    },
+    {
+      "title":"Corneal Abrasion",
+      "corpus": "clevelandclinic",
+      "url":"https://my.clevelandclinic.org/health/diseases/14423-corneal-abrasion"
+    },
+    {
+      "title":"Corneal Abrasion and Erosion",
+      "corpus": "aao",
+      "url":"https://www.aao.org/eye-health/diseases/what-is-corneal-abrasion"
+    }
+  ],
+  "clinical-evidence":[
+    {      
+      "title":"Management of corneal abrasions",
+      "text":"Review in Am Fam Physician. 2004 Jul 1; University of Pittsburgh Medical Center St. Margaret Family Practice Residency Program, Pittsburgh, Pennsylvania 15215, USA. wilsons2@upmc.edu",
+      "url":"https://pubmed.ncbi.nlm.nih.gov/15259527/"        
+    },
+    {
+      "title":"Corneal abrasions: diagnosis and management",
+      "text":"Review Am Fam Physician. 1996 Jun; Madigan Army Medical Center, Tacoma, Washington, USA.",
+      "url":"https://pubmed.ncbi.nlm.nih.gov/8644566/"
+    },
+    {
+      "title":"Evaluation and management of corneal abrasions",
+      "text":"Am Fam Physician. 2013 Jan 15; University of Kansas School of Medicine, Wichita, KS 67214, USA.",
+      "url":"https://pubmed.ncbi.nlm.nih.gov/23317075/"
+    },
+    {
+      "title":"Wound healing in the eye: Therapeutic prospects",
+      "text":"Review in Adv Drug Deliv Rev. 2018 Feb 15; University of Auckland, Department of Ophthalmology, New Zealand National Eye Centre, New Zealand.",
+      "url":"https://pubmed.ncbi.nlm.nih.gov/29355667/"
+    }
+
+  ],
+  "task":[
+    {
+      "question":"The answers about cornea injuries you found at the NLM site:",
+      "options":[
+        "Answered your question exactly",
+        "Provided clear information about the time to see a doctor",
+        "Made you more concerned about the injury",
+        "Reassured you can wait a day or two before seeing a doctor",
+        "Made you make an appointment immediately ",
+        "Made you go to an emergency room"        
+      ]
+    }
+  ]
+}

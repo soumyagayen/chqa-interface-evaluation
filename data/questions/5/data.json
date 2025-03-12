@@ -1,0 +1,261 @@
+{
+  "questionID":"126",
+  "introduction":"Your neighbors have a child with Down syndrome. They told you it is also called trisomy 21, which is caused by a genetic error called nondisjunction. You have not heard about this problem before and are looking up the definition and the causes of this problem.",
+  "question": "What is nondisjunction and what causes it?",
+  "answers": [
+    {
+      "text": "Nondisjunction is the errors in splitting genetic materials when our body cells divide.",
+      "ref": [
+          {
+          "title": "Down Syndrome",
+          "corpus": "cdc",
+          "url": "https://www.cdc.gov/birth-defects/about/down-syndrome.html "
+        },
+        {
+          "title": "The origin of human aneuploidy",
+          "text": "Review in Hum Mol Genet. 2007 Oct 15; School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA. terryhassold@wsu.edu",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17911163"
+        }
+      ]
+    },
+    {
+      "text": "A type of cell division that takes only one of two copies of each chromosome (cell structures that store genetic information) from the parent cell, for the baby to have a set of chromosomes from each parent, is called meiosis.",
+      "ref": [
+        {
+          "title": "MEIOSIS",
+          "corpus": "genome",
+          "url": "https://www.genome.gov/genetics-glossary/Meiosis"
+        }
+      ]
+    },
+    {
+      "text": "When the cells divide for growth and to maintain our bodies, the number of chromosomes remains the same in the new cells, and this type of cell division is called mitosis.",
+      "ref": [
+        {
+          "title": "MITOSIS",
+          "corpus": "genome",
+          "url": "https://www.genome.gov/genetics-glossary/Mitosis"
+        }
+      ]
+    },
+    {
+      "text": "Non-disjunction can happen during both types of cell division.",
+      "ref": [
+        {
+          "title": "Origin and mechanisms of non-disjunction in human autosomal trisomies",
+          "text": "Review Hum Reprod. 1998 Feb; Mitera Maternity Hospital, Athens, Greece.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9557829"
+        },
+        {
+          "title": "Sequence of centromere separation another mechanism for the origin of nondisjunction",
+          "text": "Hum Genet. 1984",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6232200"
+        }
+      ]
+    },
+    {
+      "text": "When the chromosomes fail to split properly, it causes a condition called aneuploidy (having too many or too few chromosomes instead of the normal two of each).",
+      "ref": [
+        {
+          "title": "To err (meiotically) is human: the genesis of human aneuploidy",
+          "text": "Review Nat Rev Genet. 2001 Apr; Department of Genetics, Case Western Reserve University, 10,900 Euclid Avenue, Cleveland, Ohio 44106, USA. tjh6@pop.cwru.edu",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11283700"
+        },
+        {
+          "title": "Selfish centromeres and the wastefulness of human reproduction",
+          "text": "LoS Biol. 2022 Jul 5; Wissenshaftskolleg zu Berlin, Berlin, Germany.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35788750"
+        }
+      ]
+    },
+    {
+      "text": "Nondisjunction can be caused by the genes and environment.",
+      "ref": [
+          {
+          "title": "Etiology of nondisjunction in humans",
+          "text": "Review in Environ Mol Mutagen. 1995; Department of Genetics, Case Western Reserve University School of Medicine, Cleveland, Ohio 44106-4955, USA.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7789361"
+        }
+      ]
+    },
+    {
+      "text": "During meiosis, both women's eggs and male sperm may have faulty chromosomes.",
+      "ref": [
+        {
+          "title": "Are chromosomal disorders inherited?",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/chromosomalinheritance/"
+        },
+        {
+          "title": "About Down Syndrome",
+          "corpus": "genome",
+          "url": "https://www.genome.gov/Genetic-Disorders/Down-Syndrome"
+        }
+      ]
+    },
+    {
+      "text": "It happens more often in older women and in men who inherited faulty chromosomes.",
+      "ref": [
+        {
+          "title": "Origin and mechanisms of non-disjunction in human autosomal trisomies",
+          "text": "Review in Hum Reprod. 1998 Feb; Mitera Maternity Hospital, Athens, Greece.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9557829/"
+        },
+        {
+          "title": "Chromosome Segregation in the Oocyte: What Goes Wrong during Aging",
+          "text": "Review Int J Mol Sci. 2022 Mar 7; Center of Gynecology, Endocrinology and Reproductive Medicine-Artemida, Jagiellonska Street 78, 10-357 Olsztyn, Poland.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35270022/"
+        }
+      ]
+    },
+    {
+      "text": "Hormone imbalance plays an important role in nondisjunction.",
+      "ref": [
+        {
+          "title": "Mechanisms of nondisjunction: facts and perspectives",
+          "text": "Comparative Study Basic Life Sci. 1985",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/4096700/"
+        }
+      ]
+    },
+    {
+      "text": "Faulty chromosomes in sperm were linked to drug treatments, occupational agents and lifestyle.",
+      "ref": [
+        {
+          "title": "Gender effects on the incidence of aneuploidy in mammalian germ cells",
+          "text": "Review in Environ Res. 2007 May; Section of Toxicology and Biomedical Sciences, ENEA CR Casaccia, Rome, Italy.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17292877/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Discerning non-disjunction in Down syndrome patients by means of GluK1-(AGAT)(n) and D21S2055-(GATA)(n) microsatellites on chromosome 21.",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC3491295_IJHG-18-204-g001"
+    },
+    {
+      "name": "image2",
+      "title": "Radiation-induced nondisjunction",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC1637653_envhper00476-0022-a"
+    },
+    {
+      "name": "image3",
+      "title": "Meiotic recombination in human oocytes",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC2735652_pgen.1000661.g001"
+    },
+    {
+      "name": "image4",
+      "title": "Lack of checkpoint control at the metaphase/anaphase transition: a mechanism of meiotic nondisjunction in mammalian females.",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC2132649_JCB.32887f5"
+    }    
+  ],
+  "related-info":[
+    {
+      "title": "Down Syndrome",
+      "corpus": "cdc",
+      "url": "https://www.cdc.gov/birth-defects/about/down-syndrome.html "
+    },
+    {
+      "title": "MEIOSIS",
+      "corpus": "genome",
+      "url": "https://www.genome.gov/genetics-glossary/Meiosis"
+    },
+    {
+      "title": "MITOSIS",
+      "corpus": "genome",
+      "url": "https://www.genome.gov/genetics-glossary/Mitosis"
+    },
+    {
+      "title": "Are chromosomal disorders inherited?",
+      "corpus": "medlineplus",
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/chromosomalinheritance/"
+    },
+    {
+      "title": "About Down Syndrome",
+      "corpus": "genome",
+      "url": "https://www.genome.gov/Genetic-Disorders/Down-Syndrome"
+    }
+  ],
+  "clinical-evidence":[
+    {
+      "title": "The origin of human aneuploidy",
+      "text": "Review in Hum Mol Genet. 2007 Oct 15; School of Molecular Biosciences, Washington State University, Pullman, WA 99164, USA. terryhassold@wsu.edu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17911163"
+    },
+    {
+      "title": "Origin and mechanisms of non-disjunction in human autosomal trisomies",
+      "text": "Review Hum Reprod. 1998 Feb; Mitera Maternity Hospital, Athens, Greece.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9557829"
+    },
+    {
+      "title": "Sequence of centromere separation another mechanism for the origin of nondisjunction",
+      "text": "Hum Genet. 1984",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6232200"
+    },
+    {
+      "title": "To err (meiotically) is human: the genesis of human aneuploidy",
+      "text": "Review Nat Rev Genet. 2001 Apr; Department of Genetics, Case Western Reserve University, 10,900 Euclid Avenue, Cleveland, Ohio 44106, USA. tjh6@pop.cwru.edu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11283700"
+    },
+    {
+      "title": "Selfish centromeres and the wastefulness of human reproduction",
+      "text": "LoS Biol. 2022 Jul 5; Wissenshaftskolleg zu Berlin, Berlin, Germany.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35788750"
+    },
+    {
+      "title": "Etiology of nondisjunction in humans",
+      "text": "Review in Environ Mol Mutagen. 1995; Department of Genetics, Case Western Reserve University School of Medicine, Cleveland, Ohio 44106-4955, USA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7789361/"
+    },
+    {
+      "title": "Origin and mechanisms of non-disjunction in human autosomal trisomies",
+      "text": "Review in Hum Reprod. 1998 Feb; Mitera Maternity Hospital, Athens, Greece.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9557829/"
+    },
+    {
+      "title": "Chromosome Segregation in the Oocyte: What Goes Wrong during Aging",
+      "text": "Review Int J Mol Sci. 2022 Mar 7; Center of Gynecology, Endocrinology and Reproductive Medicine-Artemida, Jagiellonska Street 78, 10-357 Olsztyn, Poland.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35270022/"
+    },
+    {
+      "title": "Aneuploidy and DNA fragmentation in sperm of carriers of a constitutional chromosomal abnormality",
+      "text": "Review in Cytogenet Genome Res. 2011; Laboratoire d'Histologie, Embryologie et Cytogenetique, Universite de Bretagne Occidentale, Faculte de Medecine et des Sciences de la Sante, INSERM U613, Brest, France.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21311180/"
+    },
+    {
+      "title": "Mechanisms of nondisjunction: facts and perspectives",
+      "text": "Comparative Study Basic Life Sci. 1985",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4096700/"
+    },
+    {
+      "title": "Gender effects on the incidence of aneuploidy in mammalian germ cells",
+      "text": "Review in Environ Res. 2007 May; Section of Toxicology and Biomedical Sciences, ENEA CR Casaccia, Rome, Italy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17292877/"
+    }
+  ],
+  "task":[
+    {
+      "question":"The answers about nondisjunction you found at the NLM site:",
+      "options":[
+        "Answered your question exactly",
+        "Helped you understand the definition of nondisjunction",
+        "Helped you understand the causes of nondisjunction",
+        "Made you more concerned about lifestyle, environment and age factors that contribute to nondisjunction",
+        "Made you start making plans for changing your lifestyle",
+        "Made you pay more attention to the environmental factors"
+      ]
+    }
+  ]
+}

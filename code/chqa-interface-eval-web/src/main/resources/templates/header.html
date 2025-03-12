@@ -1,0 +1,22 @@
+<div th:fragment="header">
+    <div class="top-bar">  
+        <div class="top-bar-logo">
+            <img src="/chqa/images/logos/LHNCBC_white.svg"/>
+        </div>        
+    </div>
+    <div class="header">
+        <form action="results">
+                <div class="chiqa-logo">
+                    <a href="#" class=""><img class="header-icon" src="/chqa/images/CHIQA-logo.svg"></a>
+                </div>                            
+                <div class="chiqa-search">  
+                    <input type="text" name="question" class="ui-autocomplete-input inpt" placeholder="Ask a question?" id="search-query">
+                    <a href="#" id="submit-button"><img class="submitbtn" src="/chqa/images/logos/Q_logo.svg"></a>
+                </div>
+                <div class="chiqa-menu">
+                    <span>ABOUT</span>
+                    <span>API</span>
+                </div>                
+        </form>
+    </div>    
+</div>

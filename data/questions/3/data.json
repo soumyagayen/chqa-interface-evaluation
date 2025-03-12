@@ -1,0 +1,178 @@
+{
+  "questionID":"121",
+  "introduction":"You have been under stress recently and your doctor told you your cortisol levels are high. You are looking for ways to lower your cortisol levels.",
+  "question": "How can I lower my cortisol level?",
+  "answers": [
+    {
+      "text": "Stress management, such as mindfulness, meditation and relaxation  or interacting with dogs for an hour can lower cortisol levels.",
+      "ref": [
+          {
+          "title": "Tips to Reduce Cortisol Levels and Dial Down Stress",
+          "corpus": "clevelandclinic",
+          "url": "https://health.clevelandclinic.org/how-to-reduce-cortisol-and-turn-down-the-dial-on-stress"
+        },
+        {
+          "title": "The Friend Who Keeps You Young",
+          "corpus": "hopkinsmedicine",
+          "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-friend-who-keeps-you-young"
+        }
+      ]
+    },
+    {
+      "text": "Balneotherapy (using water or bathing as treatment) or spa treatments may also help.",
+      "ref": [
+          {
+          "title": "Cushing Syndrome",
+          "corpus": "mayoclinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/cushing-syndrome/diagnosis-treatment/drc-20351314"
+        },
+        {
+          "title": "Effects of balneotherapy and spa therapy on levels of cortisol as a stress biomarker",
+          "text": "Review Int J Biometeorol. 2018 Jun; Laboratorio di Statistica Medica ed Epidemiologia Clinica, Department of Medicine and Surgery, University of Parma, Via Gramsci, 14, 43126, Parma, Italy. michele.1989@hotmail.it.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29455296/"
+        }
+      ]
+    },
+    {
+      "text": "Electrical stimulation and acupuncture may have some effect too.",
+      "ref": [
+          {
+          "title": "Stress Busters: 4 Integrative Treatments",
+          "corpus": "hopkinsmedicine",
+          "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/stress-busters-4-integrative-treatments"
+        },
+        {
+          "title": "Inhibitory effects of biofeedback electrostimulation therapy on pain and cortisol levels in chronic neuropathic pain",
+          "text": "Turk J Phys Med Rehabil. 2021 Mar 4; Department of Anesthesiology, Faculty of Medicine, University of Malaya, Kuala Lumpur, Malaysia.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33948545/"
+        }
+      ]
+    },
+    {
+      "text": "Supplements, and hormones melatonin and dehydroepiandrosterone (DHEA) might help as well.",
+      "ref": [
+        {
+          "title": "How to Lower Cortisol Levels and Feel Great While Doing It",
+          "corpus": "ucfhealth",
+          "url": "https://ucfhealth.com/our-services/primary-care/how-to-lower-cortisol/"
+        },
+        {
+          "title": "Effects of Withania somnifera on Cortisol Levels in Stressed Human Subjects",
+          "text": "Review in Nutrients. 2023 Dec 5; Department of Biomedical and Clinical Sciences, University of Milano, 20157 Milan, Italy.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38140274/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Stress, Meditation, and Alzheimer's Disease Prevention: Where The Evidence Stands",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4923750_jad-48-1-jad142766-g002&query=&req=4"
+    },
+    {
+      "name": "image2",
+      "title": "Improving creativity performance by short-term meditation",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC3994657_1744-9081-10-9-1"
+    },
+    {
+      "name": "image3",
+      "title": "Systems Chronotherapeutics",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC5394920_pr.116.013441f10"
+    },
+    {
+      "name": "image4",
+      "title": "Interaction with indoor plants may reduce psychological and physiological stress by suppressing autonomic nervous system activity in young adults",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4419447_40101_2015_60_Fig1_HTML"
+    },
+    {
+      "name": "image5",
+      "title": "The effect of Baduanjin exercise for physical and psychological wellbeing of college students",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4234126_1745-6215-14-422-2"
+    }    
+  ],
+  "related-info":[
+    {
+      "title": "Tips to Reduce Cortisol Levels and Dial Down Stress",
+      "corpus": "clevelandclinic",
+      "url": "https://health.clevelandclinic.org/how-to-reduce-cortisol-and-turn-down-the-dial-on-stress"
+    },
+    {
+      "title": "The Friend Who Keeps You Young",
+      "corpus": "hopkinsmedicine",
+      "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-friend-who-keeps-you-young"
+    },
+    {
+      "title": "Cushing Syndrome",
+      "corpus": "mayoclinic",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cushing-syndrome/diagnosis-treatment/drc-20351314"
+    },
+    {
+      "title": "Stress Busters: 4 Integrative Treatments",
+      "corpus": "hopkinsmedicine",
+      "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/stress-busters-4-integrative-treatments"
+    },
+    {
+      "title": "How to Lower Cortisol Levels and Feel Great While Doing It",
+      "corpus": "ucfhealth",
+      "url": "https://ucfhealth.com/our-services/primary-care/how-to-lower-cortisol/"
+    },
+  ],
+  "clinical-evidence":[
+    {
+      "title": "Effectiveness of stress management interventions to change cortisol levels",
+      "text": "Review Psychoneuroendocrinology. 2024 Jan; School of Psychology, University of Leeds, UK. Electronic address: psolpr@leeds.ac.uk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37879237/"
+    },
+    {
+      "title": "Can dogs serve as stress mediators to decrease salivary cortisol levels in a population of liberal arts college undergraduate students?",
+      "text": "Comment Explore (NY). 2023 May-Jun; Department of Biology, Colgate University, Hamilton, NY 13346, USA. Electronic address: ajimenez@colgate.edu.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35989236/"
+    },
+    {
+      "title": "Effects of balneotherapy and spa therapy on levels of cortisol as a stress biomarker",
+      "text": "Review Int J Biometeorol. 2018 Jun; Laboratorio di Statistica Medica ed Epidemiologia Clinica, Department of Medicine and Surgery, University of Parma, Via Gramsci, 14, 43126, Parma, Italy. michele.1989@hotmail.it.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29455296/"
+    },
+    {
+      "title": "Inhibitory effects of biofeedback electrostimulation therapy on pain and cortisol levels in chronic neuropathic pain",
+      "text": "Turk J Phys Med Rehabil. 2021 Mar 4; Department of Anesthesiology, Faculty of Medicine, University of Malaya, Kuala Lumpur, Malaysia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33948545/"
+    },
+    {
+      "title": "Acupuncture Effect on Analgesic Consumption and Cortisol Levels Following Total Knee Arthroplasty",
+      "text": "Med Acupunct. 2023 Oct 1; Orthopedics Surgery Department, Ziv Medical Center, Safed, Israel.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37920858/"
+    },
+    {
+      "title": "Effects of Withania somnifera on Cortisol Levels in Stressed Human Subjects",
+      "text": "Review in Nutrients. 2023 Dec 5; Department of Biomedical and Clinical Sciences, University of Milano, 20157 Milan, Italy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38140274/"
+    },
+    {
+      "title": "Effects of Melatonin on Salivary Levels of Cortisol and Sleep Quality of Hemodialysis Patients",
+      "text": "Iran J Psychiatry. 2021 Jul; Golestan Psychiatry Research Center, Golestan University of Medical Science, Gorgan, Iran.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34616464/"
+    },
+    {
+      "title": "Effects of dehydroepiandrosterone (DHEA) supplementation on cortisol, leptin, adiponectin, and liver enzyme levels",
+      "text": "Meta-Analysis Int J Clin Pract. 2021 Nov; Department of Pharmacy, Yichun People's Hospital, Yichun, Jiangxi Province, China.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34342920/"
+    }
+  ],
+  "task":[
+    {
+      "question":"Given the recommendations for lowering your stress levels you found at the NLM site, what will you do:",
+      "options":[
+        "Change your lifestyle as recommended",
+        "Look for alternative medical treatments, such as acupuncture",
+        "Start taking the recommended over-the-counter supplements",
+        "Ask your doctor if you need more tests to rule out other causes of high cortisol levels",
+        "Get a pet"
+      ]
+    }
+  ]
+}

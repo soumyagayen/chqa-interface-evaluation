@@ -1,0 +1,164 @@
+{
+  "questionID":"125",
+  "introduction":"You found some pills in your medicine cabinet that look like tamsulosin. You do not remember who was taking these pills and why. You are looking for indications for tamsulosin.",
+  "question": "What is tamsulosin used for?",
+  "answers": [
+    {
+      "text": "Tamsulosin is mostly used to treat benign prostatic hyperplasia (BPH, a condition in men in which the prostate gland is enlarged),  and the overactive bladder (OAB) and lower urinary tract symptoms (LUTS) linked to prostate inflammation and BPH.",
+      "ref": [
+        {
+          "title": "Tamsulosin (Oral Route)",
+          "corpus": "mayoclinic",
+          "url": "https://www.mayoclinic.org/drugs-supplements/tamsulosin-oral-route/description/drg-20068275"
+        },
+        {
+          "title": "Tamsulosin Hydrochloride",
+          "corpus": "kaiserpermanente",
+          "url": "https://wa.kaiserpermanente.org/kbase/topic.jhtml?docId=d04121a1&secId=d04121a1-Header%20,"
+        }
+      ]
+    },
+    {
+      "text": "It is also used to treat ureteral stones (a stone in the urinary tract) and pain caused by these stones (renal colic).",
+      "ref": [
+        {
+          "title": "How and when to take tamsulosin",
+          "corpus": "nhs",
+          "url": "https://www.nhs.uk/medicines/tamsulosin/how-and-when-to-take-tamsulosin/"
+        },
+        {
+          "title": "Safety of Tamsulosin: A Systematic Review of Randomized Trials with a Focus on Women and Children",
+          "text": "Review Drug Saf. 2018 Sep; Department of Urology, Icahn School of Medicine at Mount Sinai, Mount Sinai Health System, New York, United States. steven.kaplan@mountsinai.org.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29737501/"
+        }
+      ]
+    },
+    {
+      "text": "Tamsulosin may also be used to treat lower urinary tract symptoms in children and women.",
+      "ref": [
+        {
+          "title": "Effect of tamsulosin on systemic blood pressure and nonneurogenic dysfunctional voiding in children",
+          "text": "Comparative Study in J Urol. 2009 Feb; Division of Pediatric Urology, Schneider's Children Hospital and Smith Institute for Urology, North Shore Long Island Jewish Health System, New Hyde Park, New York, USA.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19110267/"
+        },
+        {
+          "title":"The effectiveness of tamsulosin in treating women with voiding difficulty",
+          "text": "Clinical Trial in Int J Urol. 2008 Oct; Department of Urology, Buddhist Tzu Chi General Hospital, Taipei Branch, Taipei, Taiwan.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18721208/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Review of dutasteride/tamsulosin fixed-dose combination for the treatment of benign prostatic hyperplasia",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC3191925_ppa-5-483f4"
+    },
+    {
+      "name": "image2",
+      "title": "Tamsulosin in urology: beyond benign prostatic hyperplasia",
+      "url": "https://link.springer.com/article/10.1007/s40267-019-00611-1/figures/1"
+    },
+    {
+      "name": "image3",
+      "title": "Efficacy of alpha blocker treatment according to the degree of intravesical prostatic protrusion detected by transrectal ultrasonography in patients with benign prostatic hyperplasia",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC3285715_kju-53-92-g001"
+    },
+    {
+      "name": "image4",
+      "title": "Efficacy and safety of tamsulosin vs. alfuzosin as medical expulsive therapy for ureteric stones",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4443000_gr1"
+    },
+    {
+      "name": "image5",
+      "title": "Prostatic urethral angle might be a predictor of treatment efficacy of α-blockers in men with lower urinary tract symptoms",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4106922_dddt-8-937Fig1"
+    }    
+  ],
+  "related-info":[    
+    {
+      "title": "Tamsulosin (Oral Route)",
+      "corpus": "mayoclinic",
+      "url": "https://www.mayoclinic.org/drugs-supplements/tamsulosin-oral-route/description/drg-20068275"
+    },
+    {
+      "title": "Tamsulosin Hydrochloride",
+      "corpus": "kaiserpermanente",
+      "url": "https://wa.kaiserpermanente.org/kbase/topic.jhtml?docId=d04121a1&secId=d04121a1-Header%20,"
+    },
+    {
+      "title":"Tamsulosin",
+      "corpus":"medlineplus",
+      "url":"https://medlineplus.gov/druginfo/meds/a698012.html"
+    },
+    {
+      "title":"Tamsulosin",
+      "corpus":"mskcc",
+      "url":"https://www.mskcc.org/cancer-care/patient-education/medications/adult/tamsulosin"
+    },
+    {
+      "title": "How and when to take tamsulosin",
+      "corpus": "nhs",
+      "url": "https://www.nhs.uk/medicines/tamsulosin/how-and-when-to-take-tamsulosin/"
+    }
+  ],
+  "clinical-evidence":[    
+    {
+      "title": "Safety of Tamsulosin: A Systematic Review of Randomized Trials with a Focus on Women and Children",
+      "text": "Review in Drug Saf. 2018 Sep; Department of Urology, Icahn School of Medicine at Mount Sinai, Mount Sinai Health System, New York, United States. steven.kaplan@mountsinai.org.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29737501/"
+    },
+    {
+      "title": "Long-term use of tamsulosin to treat lower urinary tract symptoms/benign prostatic hyperplasia",
+      "text": "J Urol. 2001 Oct; Erasmus University Hospital, Brussels, Belgium.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11547074/"
+    },
+    {
+      "title": "Tamsulosin: current clinical experience",
+      "text": "Review in Urology. 2001 Dec; Division of Urologic Surgery, Harvard Medical School, Brigham and Women's Hospital, Boston, Massachusetts, USA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11750250/"
+    },
+    {
+      "title": "'Tamsulosin and Darifenacin' Versus 'Tamsulosin Monotherapy' for 'BPH with Accompanying Overactive Bladder'",
+      "text": "J Clin Diagn Res. 2015 Jun; Professor, Department of Surgery, University College of Medical Sciences (University of Delhi) & GTB Hospital , Delhi, India.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26266159/"
+    },
+    {
+      "title": "Tamsulosin efficacy and safety for conservative management of renal colic",
+      "text": "Review in Med Clin (Barc). 2015 Sep 21; Centre d'Atencio Primaria Gotic, Barcelona, Espana. Electronic address: alexpben2010@gmail.com.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25982524/"
+    },
+    {
+      "title": "Optimal duration of medical expulsive therapy for lower ureteral stones",
+      "text": "Urolithiasis. 2024 Mar 23; Department of Urology, Sancaktepe Sehit Prof. Dr. Ilhan Varank Research and Training Hospital, Istanbul, Turkey. erhandr@hotmail.com.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38520492/"
+    },
+    {
+      "title": "Effect of tamsulosin on systemic blood pressure and nonneurogenic dysfunctional voiding in children",
+      "text": "Comparative Study in J Urol. 2009 Feb; Division of Pediatric Urology, Schneider's Children Hospital and Smith Institute for Urology, North Shore Long Island Jewish Health System, New Hyde Park, New York, USA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19110267/"
+    },
+    {
+      "title":"The effectiveness of tamsulosin in treating women with voiding difficulty",
+      "text": "Clinical Trial in Int J Urol. 2008 Oct; Department of Urology, Buddhist Tzu Chi General Hospital, Taipei Branch, Taipei, Taiwan.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18721208/"
+    }
+
+  ],
+  "task":[
+    {
+      "question":"The answers about tamsulosin you found at the NLM site:",
+      "options":[
+        "Answered your question exactly",
+        "Provided clear information about indications for tamsulosin",
+        "Reassured you can safely dispose of the drug",
+        "Suggested you can keep the drug in case anyone in the family gets urinary infection",
+        "Suggested the drug is safe for the woman nextdoor who has urinary infection"
+      ]
+    }
+  ]
+}

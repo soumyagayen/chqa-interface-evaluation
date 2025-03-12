@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="\chqa\css\app.css" />
+    </head>
+    <body>
+        <h3>Health Literacy Questioner</h3>
+        <form method="POST" th:action="@{/experiment/healthliteracy}" th:object="${healthLiteracy}" class="healthliteracy">
+            <!-- <table>
+                <!--                
+                                
+                <tr>
+                    <td colspan="2">
+                        Now, let's look at some health messages. The next three questions are about the following advertisement for an imaginary drug called Gritagrel.
+                    </td>                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="advertisment">
+                            <h1>Gritagrel</h1>
+                            <h1>50%</h1>
+                            <h3>reduction in strokes</h3>
+                            <h4>                            
+                                <p>
+                                   Gritagrel is a new pill to prevent strokes. People taking Gritagrel had half as many strokes as people taking placebo (i.e. sugar pill). 
+                                </p> 
+                                <p>
+                                   Like any medicine, Gritagrel can have side effects. The most common side effects are: headache (5%) and stomach ache (1%).
+                                </p>
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">  
+                       <div class="question"> 
+                            1. Which would best help you to determine how much a person could benefit from Gritagrel? 
+                       </div>
+                        <div class="options">
+                            <div class="option">
+                                a. How often people experience side effects
+                            </div>
+                            <div class="option">
+                                b. The chance of stroke for people who do not take Gritagrel
+                            </div>
+                            <div class="option">
+                                c. How many people take Gritagrel
+                            </div>
+                            <div class="option">
+                                d. How recently Gritagrel was developed
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td colspan="2"><input type="submit" value="sumbit"/></td>
+                </tr>
+            </table>
+-->
+<div th:if="*{error}" class="error">
+    <label th:text="'ERROR : ' + *{error}"></label>
+</div>
+<div class="advertisment">
+    <h1>Gritagrel</h1>
+    <h1>50%</h1>
+    <h3>reduction in strokes</h3>
+    <h4>                            
+        <p>
+            Gritagrel is a new pill to prevent strokes. People taking Gritagrel had half as many strokes as people taking placebo (i.e. sugar pill). 
+        </p> 
+        <p>
+            Like any medicine, Gritagrel can have side effects. The most common side effects are: headache (5%) and stomach ache (1%).
+        </p>
+    
+    </h4>
+</div>
+       
+<div>
+            <p>1. Which would best help you to determine how much a person could benefit from Gritagrel?</p>
+            <input type="radio" th:field="*{question1}" value="a.How often people experience side effects" /> a. How often people experience side effects<br>
+            <input type="radio" th:field="*{question1}" value="b.The chance of stroke for people who do not take Gritagrel" /> b. The chance of stroke for people who do not take Gritagrel<br>
+            <input type="radio" th:field="*{question1}" value="c.How many people take Gritagrel" /> c. How many people take Gritagrel<br>
+            <input type="radio" th:field="*{question1}" value="d.How recently Gritagrel was developed" /> d. How recently Gritagrel was developed
+        </div>
+
+        <div>
+            <p>2. Which would best help you to decide whether you will benefit from Gritagrel?</p>
+            <input type="radio" th:field="*{question2}" value="a.How many people were in the study" /> a. How many people were in the study<br>
+            <input type="radio" th:field="*{question2}" value="b.Age and sex of people in the study" /> b. Age and sex of people in the study<br>
+            <input type="radio" th:field="*{question2}" value="c.Whether a doctor confirmed that people had strokes" /> c. Whether a doctor confirmed that people had strokes<br>
+            <input type="radio" th:field="*{question2}" value="d.Who paid for the study" /> d. Who paid for the study
+        </div>
+
+        <div>
+            <p>3. Which additional piece of information would be the best evidence that Gritagrel helped people?</p>
+            <input type="radio" th:field="*{question3}" value="a.Gritagrel lowered antioxidant levels" /> a. Gritagrel lowered antioxidant levels<br>
+            <input type="radio" th:field="*{question3}" value="b.Fewer people died for any reason in the Gritagrel group than in the placebo group" /> b. Fewer people died for any reason in the Gritagrel group than in the placebo group<br>
+            <input type="radio" th:field="*{question3}" value="c.Many doctors prescribe it" /> c. Many doctors prescribe it<br>
+            <input type="radio" th:field="*{question3}" value="d.Fewer people died from strokes in the Gritagrel group than the placebo group" /> d. Fewer people died from strokes in the Gritagrel group than the placebo group
+        </div>
+        <br><br>
+        <div><b>Your doctor says there is a 10% risk of dying from pneumonia.</b></div>    
+        <div>
+            <p>4. Which information best helps you understand whether this risk applies to you?</p>
+            <input type="radio" th:field="*{question4}" value="a.Most people who die from pneumonia are 75 years or older" /> a. Most people who die from pneumonia are 75 years or older<br>
+            <input type="radio" th:field="*{question4}" value="b.More than 110,000 people get pneumonia each year" /> b. More than 110,000 people get pneumonia each year<br>
+            <input type="radio" th:field="*{question4}" value="c.Pneumonia is one of the most common reasons for hospitalization" /> c. Pneumonia is one of the most common reasons for hospitalization<br>
+            <input type="radio" th:field="*{question4}" value="d.About 15,000 people die from pneumonia each year" /> d. About 15,000 people die from pneumonia each year
+        </div>
+
+        <div>
+            <p>5. To better understand how much of a threat pneumonia is to your health, which information is most helpful?</p>
+            <input type="radio" th:field="*{question5}" value="a.How much money is spent on pneumonia research" /> a. How much money is spent on pneumonia research<br>
+            <input type="radio" th:field="*{question5}" value="b.Whether pneumonia is more common in the US than Europe" /> b. Whether pneumonia is more common in the US than Europe<br>
+            <input type="radio" th:field="*{question5}" value="c.Your chance of dying of other important diseases" /> c. Your chance of dying of other important diseases<br>
+            <input type="radio" th:field="*{question5}" value="d.Celebrities who have had pneumonia" /> d. Celebrities who have had pneumonia
+        </div>
+
+        <br><br>
+        <div><b> A new study finds that there were 30 deaths among people who eat broccoli regularly compared to 100 deaths among people who don't eat broccoli at all.</b></div>
+        <div>
+            <p>6. According to this study, which statement best describes how eating broccoli relates to death?</p>
+            <input type="radio" th:field="*{question6}" value="a.Lowers the risk of death" /> a. Lowers the risk of death<br>
+            <input type="radio" th:field="*{question6}" value="b.Doesn't change the risk of death" /> b. Doesn't change the risk of death<br>
+            <input type="radio" th:field="*{question6}" value="c.Raises the risk of death" /> c. Raises the risk of death<br>
+            <input type="radio" th:field="*{question6}" value="d.Can't tell from this information" /> d. Can't tell from this information
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+                Mr. Roe needs surgery: 9 in 1000 people die from this surgery.
+            </b>
+        </div>
+        <div>
+            <p>7. How would you describe the surgery?</p>
+            <input type="radio" th:field="*{question7}" value="a.Very risky" /> a. Very risky<br>
+            <input type="radio" th:field="*{question7}" value="b.Risky" /> b. Risky<br>
+            <input type="radio" th:field="*{question7}" value="c.Slightly risky" /> c. Slightly risky<br>
+            <input type="radio" th:field="*{question7}" value="d.Not risky" /> d. Not risky
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+                Mrs. Smith is told she has a 1 in 296 chance of dying from cancer and a 1 in 407 chance of dying from a stroke.
+            </b>
+        </div>
+        <div>
+            <p>8. Which is bigger, Mrs. Smith’s chance of dying from a stroke or cancer?</p>
+            <input type="radio" th:field="*{question8}" value="a.Stroke" /> a. Stroke<br>
+            <input type="radio" th:field="*{question8}" value="b.Cancer" /> b. Cancer<br>
+            <input type="radio" th:field="*{question8}" value="c.Chances are the same" /> c. Chances are the same
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+                Mr. Doe is a 75-year-old who smokes.
+            </b>
+        </div>
+        <div>
+            <p>9. What is your best guess about how his chance of dying from prostate cancer compares to his chance of dying from lung cancer in the next 10 years? He is...</p>
+            <input type="radio" th:field="*{question9}" value="a.10 times more likely to die of lung cancer than prostate cancer" /> a. 10 times more likely to die of lung cancer than prostate cancer<br>
+            <input type="radio" th:field="*{question9}" value="b.Equally likely to die of lung cancer as of prostate cancer" /> b. Equally likely to die of lung cancer as of prostate cancer<br>
+            <input type="radio" th:field="*{question9}" value="c.10 times more likely to die of prostate cancer than lung cancer" /> c. 10 times more likely to die of prostate cancer than lung cancer
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+            About 51,000 Americans will be diagnosed with melanoma (the most serious skin cancer) this year.
+            </b>
+        </div>
+        <div>
+            <p>10. What is your best guess about an American's chance of being diagnosed with melanoma in the next year?</p>
+            <input type="radio" th:field="*{question10}" value="a.51,000" /> a. 51,000<br>
+            <input type="radio" th:field="*{question10}" value="b.51,000 divided by the number of Americans" /> b. 51,000 divided by the number of Americans<br>
+            <input type="radio" th:field="*{question10}" value="c.Don’t know how to figure this out" /> c. Don’t know how to figure this out
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+            Mrs. Jones is told she has a 28 in 1,000 chance of dying from cancer and a 59 in 1,000 chance of dying from a stroke.
+            </b>
+        </div>
+        <div>
+            <p>11. Assuming the 2 pills are equally safe and cost the same, which do you suggest she take if her goal is to lower her chance of dying?</p>
+            <input type="radio" th:field="*{question11}" value="a.STROKE pill" /> a. STROKE pill<br>
+            <input type="radio" th:field="*{question11}" value="b.CANCER pill" /> b. CANCER pill<br>
+            <input type="radio" th:field="*{question11}" value="c.Either pill is okay" /> c. Either pill is okay
+        </div>
+
+        <div>
+            <p>12. Mrs. Jones decides to take the CANCER pill. Now, what is her chance of dying from a stroke?</p>
+            <input type="radio" th:field="*{question12}" value="a.1 in 100" /> a. 1 in 100<br>
+            <input type="radio" th:field="*{question12}" value="b.4 in 100" /> b. 4 in 100<br>
+            <input type="radio" th:field="*{question12}" value="c.7 in 100" /> c. 7 in 100<br>
+            <input type="radio" th:field="*{question12}" value="d.10 in 100" /> d. 10 in 100
+        </div>
+
+        </br></br>
+        <div>
+            <b>Please read the following news story about Dr. Womba's study.</b>
+        </div>
+        <div class="advertisment">
+            <h2>Promising new drug hailed*</h2>
+            <p>Washington, DC -- Researchers announced the results of a long awaited study of Argentex, a drug designed to prevent prostate cancer. In the study, 1000 men age 45 to 75 were randomly assigned to take either Argentex or a sugar pill called a placebo. The men were followed for 4 years. Only 3 of the men taking Argentex developed prostate cancer. Lead scientist Bernard Womba described the findings as “extremely promising” and predicted the drug would be in wide use shortly.</p>
+        </div>
+        <div>
+            <p>13. Which question would you most like to ask Dr. Womba?</p>
+            <input type="radio" th:field="*{question13}" value="a.Who paid for the study?" />a. Who paid for the study?<br>
+            <input type="radio" th:field="*{question13}" value="b.Has Argentex been shown to work in animals?" />b. Has Argentex been shown to work in animals?<br>
+            <input type="radio" th:field="*{question13}" value="c.What was the average age of the men in the study?" />c. What was the average age of the men in the study?<br>
+            <input type="radio" th:field="*{question13}" value="d.How many men taking the sugar pill developed prostate cancer?" />d. How many men taking the sugar pill developed prostate cancer?
+        </div>
+
+        </br></br>
+        <div>
+            <b>Mr. Newman is a healthy 40 year old man who does not smoke.</b>
+        </div>
+        <div>
+            <p>14. What is your best guess about his chance of dying from a heart attack in the next 10 years?</p>
+            <input type="radio" th:field="*{question14}" value="a.1 in 1000" /> 1 in 1000<br>
+            <input type="radio" th:field="*{question14}" value="b.5 in 1000" /> 5 in 1000<br>
+            <input type="radio" th:field="*{question14}" value="c.30 in 1000" /> 30 in 1000<br>
+            <input type="radio" th:field="*{question14}" value="d.80 in 1000" /> 80 in 1000<br>
+            <input type="radio" th:field="*{question14}" value="e.250 in 1000" /> 250 in 1000
+        </div>
+
+        <div>
+            <p>15. What is your best guess about his chance of dying for any reason in the next 10 years?</p>
+            <input type="radio" th:field="*{question15}" value="a.1 in 1000" /> 1 in 1000<br>
+            <input type="radio" th:field="*{question15}" value="b.5 in 1000" /> 5 in 1000<br>
+            <input type="radio" th:field="*{question15}" value="c.30 in 1000" /> 30 in 1000<br>
+            <input type="radio" th:field="*{question15}" value="d.80 in 1000" /> 80 in 1000<br>
+            <input type="radio" th:field="*{question15}" value="e.250 in 1000" /> 250 in 1000
+        </div>
+
+        <div>
+            <p>16. What is your best guess about his chance of dying for any reason in the next 20 years?</p>
+            <input type="radio" th:field="*{question16}" value="a.1 in 1000" /> 1 in 1000<br>
+            <input type="radio" th:field="*{question16}" value="b.5 in 1000" /> 5 in 1000<br>
+            <input type="radio" th:field="*{question16}" value="c.30 in 1000" /> 30 in 1000<br>
+            <input type="radio" th:field="*{question16}" value="d.80 in 1000" /> 80 in 1000<br>
+            <input type="radio" th:field="*{question16}" value="e.250 in 1000" /> 250 in 1000
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+            In a new study, people either took pill X or placebo (a sugar pill). 3% of people taking placebo died; 1% of people taking pill X died.
+            </b>
+        </div>
+        <div>
+            <p>17. Which statement is correct about how pill X changes the chance of death?</p>
+            <input type="radio" th:field="*{question17}" value="a.Lowers by 66%" /> Lowers by 66%<br>
+            <input type="radio" th:field="*{question17}" value="b.Lowers by 33%" /> Lowers by 33%<br>
+            <input type="radio" th:field="*{question17}" value="c.Raises by 33%" /> Raises by 33%<br>
+            <input type="radio" th:field="*{question17}" value="d.Raises by 66%" /> Raises by 66%
+        </div>
+
+        <div>
+            <p>18. Which statement is correct about how pill X changes the chance of death?</p>
+            <input type="radio" th:field="*{question18}" value="a.2 more deaths per 100 people" /> 2 more deaths per 100 people<br>
+            <input type="radio" th:field="*{question18}" value="b.1 more death per 100 people" /> 1 more death per 100 people<br>
+            <input type="radio" th:field="*{question18}" value="c.1 fewer death per 100 people" /> 1 fewer death per 100 people<br>
+            <input type="radio" th:field="*{question18}" value="d.2 fewer deaths per 100 people" /> 2 fewer deaths per 100 people
+        </div>
+
+        <div>
+            <p>19. Suppose that 500 people had taken pill X, and 500 people had taken placebo in the new study. Which of the following is correct?</p>
+            <input type="radio" th:field="*{question19}" value="a.15 who took placebo, 5 who took pill X" />Number of people who died. 15 who took placebo, 5 who took pill X<br>
+            <input type="radio" th:field="*{question19}" value="b.1 who took placebo, 3 who took pill X" /> Number of people who died. 1 who took placebo, 3 who took pill X<br>
+            <input type="radio" th:field="*{question19}" value="c.3 who took placebo, 1 who took pill X" /> Number of people who died. 3 who took placebo, 1 who took pill X<br>
+            <input type="radio" th:field="*{question19}" value="d.5 who took placebo, 15 who took pill X" />Number of people who died. 5 who took placebo, 15 who took pill X
+        </div>
+
+        <br><br>
+        <div>
+            <b>
+                Mr. Smythe needs surgery: 991 in 1000 people survive this surgery.
+            </b>
+        </div>
+        <div>
+            <p>20. How would you describe the surgery?</p>
+            <input type="radio" th:field="*{question20}" value="a.Very risky" /> Very risky<br>
+            <input type="radio" th:field="*{question20}" value="b.Risky" /> Risky<br>
+            <input type="radio" th:field="*{question20}" value="c.Slightly risky" /> Slightly risky<br>
+            <input type="radio" th:field="*{question20}" value="d.Not risky" /> Not risky
+        </div>
+
+        <br/>
+        
+        <div th:if="*{error}" class="error">
+            <label th:text="'ERROR : ' + *{error}"></label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
+

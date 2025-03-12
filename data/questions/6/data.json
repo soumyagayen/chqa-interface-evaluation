@@ -1,0 +1,162 @@
+{
+  "questionID":"128",
+  "introduction":"You've heard that CBD is prescribed for anxiety, but you also heard that it may affect your liver, which is indicated by abnormal liver enzymes tests. You would like to know how CBD affects liver enzymes.",
+  "question": "how does cbd effect liver enzymes?",
+  "answers": [
+    {
+      "text": "Cannabidiol (CBD) is a non-psychoactive (not causing 'high') chemical found in Cannabis (marijuana).",
+      "ref": [
+        {
+          "title": "What You Need to Know (And What We're Working to Find Out) About Products Containing Cannabis or Cannabis-derived Compounds, Including CBD",
+          "corpus": "fda",
+          "url": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis"
+        },
+        {
+          "title": "The Role of Cannabidiol in Liver Disease: A Systemic Review",
+          "text": "Review Int J Mol Sci. 2024 Feb 17; Department of Biochemistry and Molecular Biology, Jeonbuk National University Medical School, Jeonju 54896, Republic of Korea.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38397045/"
+        }
+      ]
+    },
+    {
+      "text": "Some studies show that it causes liver enzymes to be higher than normal, which shows CBD in higher doses damages liver.",
+      "ref": [
+          {
+          "title": "Cannabidiol (CBD): What we know and what we don't",
+          "corpus": "harvard",
+          "url": "https://www.health.harvard.edu/blog/cannabidiol-cbd-what-we-know-and-what-we-dont-2018082414476"
+        },
+        {
+          "title": "CBD effects on the liver",
+          "corpus": "unc",
+          "url": "https://pharmacy.unc.edu/2023/11/cbd-effects-on-the-liver/"
+        }
+      ]
+    },
+    {
+      "text": "Other studies found that in healthy adults CBD is not linked to higher liver enzymes, and it may be protective in some liver diseases and other cases.",
+      "ref": [
+          {
+          "title": "Cannabidiol (CBD)",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/druginfo/natural/1439.html"
+        },
+        {
+          "title": "Observed Impact of Long-Term Consumption of Oral Cannabidiol on Liver Function in Healthy Adults",
+          "text": "Observational Study in Cannabis Cannabinoid Res. 2023 Feb",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34918948/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Cannabidiol rescues acute hepatic toxicity and seizure induced by cocaine.",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4427116_MI2015-523418.004"
+    },
+    {
+      "name": "image2",
+      "title": "Potential of Cannabidiol for the Treatment of Viral Hepatitis",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC5330095_PR-9-116-g002"
+    },
+    {
+      "name": "image3",
+      "title": "Δ 9-THC Intoxication by Cannabidiol-Enriched Cannabis Extract in Two Children with Refractory Epilepsy: Full Remission after Switching to Purified Cannabidiol",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC5043219_fphar-07-00359-g001"
+    }    
+  ],
+  "related-info":[
+    {
+      "title": "What You Need to Know (And What We're Working to Find Out) About Products Containing Cannabis or Cannabis-derived Compounds, Including CBD",
+      "corpus": "fda",
+      "url": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis"
+    },
+    {
+      "title": "Cannabidiol (CBD): What we know and what we don't",
+      "corpus": "harvard",
+      "url": "https://www.health.harvard.edu/blog/cannabidiol-cbd-what-we-know-and-what-we-dont-2018082414476"
+    },
+    {
+      "title": "CBD effects on the liver",
+      "corpus": "unc",
+      "url": "https://pharmacy.unc.edu/2023/11/cbd-effects-on-the-liver/"
+    },
+    {
+      "title": "Cannabidiol (CBD)",
+      "corpus": "medlineplus",
+      "url": "https://medlineplus.gov/druginfo/natural/1439.html"
+    },
+    {
+      "title": "The ABCs of CBD: Separating fact from fiction",
+      "corpus": "medlineplus",
+      "url": "https://magazine.medlineplus.gov/article/the-abcs-of-cbd-separating-fact-from-fiction"
+    }
+  ],
+  "clinical-evidence":[
+    {
+      "title": "The Role of Cannabidiol in Liver Disease: A Systemic Review",
+      "text": "Review in Int J Mol Sci. 2024 Feb 17; Department of Biochemistry and Molecular Biology, Jeonbuk National University Medical School, Jeonju 54896, Republic of Korea.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38397045/"
+    },
+    {
+      "title": "Cannabidiol-associated hepatotoxicity",
+      "text": "Meta-Analysis in J Intern Med. 2023 Jun; Department of Public Health Sciences, Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario, Canada.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36912195/"
+    },
+    {
+      "title": "Hepatotoxicity of a Cannabidiol-Rich Cannabis Extract in the Mouse Model",
+      "text": "Molecules. 2019 Apr 30; Department of Environmental and Occupational Health, University of Arkansas for Medical Sciences, Little Rock, AR 72205, USA. leewing@uams.edu.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31052254/"
+    },
+    {
+      "title": "Health status outcome among cannabis addicts after treatment of addiction",
+      "text": "PLoS One. 2023 Nov 27; Department of Pharmacology and Toxicology, College of Pharmacy, Qassim University, Buraydah, Qassim, Saudi Arabia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38011195/"
+    },
+    {
+      "title": "Advances and Challenges in Modeling Cannabidiol Pharmacokinetics and Hepatotoxicity",
+      "text": "Review in Drug Metab Dispos. 2024 May 16; Division of Pharmacotherapy and Experimental Therapeutics, Eshelman School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina (J.L.B., K.D.J.); and Department of Chemistry, York College, City University of New York, Jamaica, New York (Z.Z.) jlbeers@uw.edu.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38286636/"
+    },
+    {
+      "title": "Cytogenotoxicity and inflammatory response in liver of rats exposed to different doses of cannabis nano emulsions",
+      "text": "Arch Toxicol. 2024 Jun; Department of Biosciences, Institute of Health and Society, Federal University of Sao Paulo, UNIFESP, Rua Silva Jardim, 136, Room 332, Vila Mathias, Santos, SP, 11050-020, Brazil.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38494580/"
+    },
+    {
+      "title": "Cannabidiol and Abnormal Liver Chemistries in Healthy Adults: Results of a Phase I Clinical Trial",
+      "text": "Clinical Trial in Clin Pharmacol Ther. 2021 May; Division of Pharmacotherapy and Experimental Therapeutics, Eshelman School of Pharmacy and Institute for Drug Safety Sciences, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33022751/"
+    },
+    {
+      "title": "Observed Impact of Long-Term Consumption of Oral Cannabidiol on Liver Function in Healthy Adults",
+      "text": "Observational Study in Cannabis Cannabinoid Res. 2023 Feb; Midwest Allergy Sinus Asthma PC, Springfield, Illinois, USA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34918948/"
+    },
+    {
+      "title": "The Effects of Long-Term Self-Dosing of Cannabidiol on Drowsiness, Testosterone Levels, and Liver Function",
+      "text": "Med Cannabis Cannabinoids. 2023 Mar 22; Midwest Allergy Sinus Asthma PC, Springfield, IL, USA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36968131/"
+    },
+    {
+      "title": "The Role of Cannabidiol in Liver Disease",
+      "text": "Review Int J Mol Sci. 2024 Feb 17; Department of Biochemistry and Molecular Biology, Jeonbuk National University Medical School, Jeonju 54896, Republic of Korea.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38397045/"
+    }
+  ],
+  "task":[
+    {
+      "question":"The answers about CBD you found at the NLM site:",
+      "options":[
+        "Clarified when CBD is prescribed",
+        "Explained how CBD affects the liver",
+        "Explained the relation between the liver enzyme tests and liver damage",
+        "Based on the answers, you decided to ask your doctor about CBD for your anxiety",
+        "Based on the answers, you decided to ask your doctor about anxiety treatments other than CBD"
+      ]
+    }
+  ]
+}

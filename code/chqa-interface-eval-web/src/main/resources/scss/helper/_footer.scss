@@ -1,0 +1,41 @@
+.footer
+{
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e8e8e8;
+    line-height: 15px;
+
+    //position: absolute;
+    //bottom: 0;
+    width: 100%;
+    height: auto;   /* Height of the footer */ 
+    padding: 5px 0px 5px 0px;
+    
+    .col-footer 
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .address, .footer-links 
+    {
+        padding-top: 10px;
+        color: #698ddb;
+    }
+    
+    .address div 
+    {
+        text-align: center;
+        padding-left: 5px;
+    }
+        
+    .footer-icons
+    {
+        @media (max-width: 1399px) 
+        {
+            text-align:right;
+        }
+    }
+        
+}

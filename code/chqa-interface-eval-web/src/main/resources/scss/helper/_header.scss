@@ -1,0 +1,118 @@
+$header-height: auto;
+
+.top-bar
+{
+    height:75px;
+    background-color: #326295;
+    .top-bar-logo
+    {
+        max-width: 1440px; 
+        img
+        {
+            height: 50px;
+            margin: 13px 0px;  
+            padding: 0px 20px;
+        } 
+    }
+    
+}
+    
+    
+.header
+{
+    background-color: #DCE4EF;
+    height: 50px;
+    padding: 10px 0px 5px 0px;    
+    
+    form
+    {
+        max-width: 1200px;
+        
+        .chiqa-logo
+        {
+            float: left;
+            width: 140px;
+            padding: 0px 20px;
+            
+            img
+            {
+                height: 35px;
+            }
+        }
+        
+        .chiqa-search
+        {
+            /*
+            Temporary
+            */
+            visibility: hidden;
+            
+            float: left;
+            width: 500px;
+            img
+            {
+                height:35px;
+            }
+            
+            input
+            {
+                width: 332px;
+                height: 30px;
+                border: 1px solid #326295;
+                padding: 0px 10px;
+            }
+        }
+        
+        .chiqa-menu
+        {
+            float: right;
+            width: 260px;
+            color: #326295;
+            font-size: 20px;
+            
+            span
+            {
+                padding: 0px 30px;
+                font-size: 18px;
+                font-family: Roboto;
+            }
+        }
+    }
+                  
+    
+    #search-query
+    {
+        width: calc(100% - 140px);
+        @media(max-width: 768px)
+        {
+            width: calc(100% - 40px);
+        }
+        
+        #submit-button
+        {
+            cursor: pointer;
+        }
+    }
+    
+    .chqa-icon
+    {
+        text-align: right;
+    }
+    
+    .links
+    {
+        color: #698ddb;
+        font-size: 20px;
+        text-align: right;
+    }
+    
+    .chqa-sm-md-icon
+    {
+        text-align: center;
+    }
+    
+    .question-box
+    {
+        padding-top: 5px;
+    }
+}

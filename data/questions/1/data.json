@@ -1,0 +1,189 @@
+{
+  "questionID":"116",
+  "introduction":"Your close relative was diagnosed with sleep apnea. Occasionally, you experience daytime sleepiness, which you found out could be a sign of sleep apnea. While you do not have any other symptoms, you would like to know if sleep apnea may be prevented. You also heard that many people have troubles using the traditional devices used to treat sleep apnea. You would like to find a natural treatment to recommend to your relative.",
+  "question": "Are there ways to prevent sleep apnea or treat it naturally?",
+  "answers": [
+    {
+      "text": "There are ways to prevent and treat sleep apnea naturally. Lifestyle changes may prevent and treat sleep apnea",
+      "ref": [
+          {
+          "title": "Obstructive sleep apnea - adults",
+          "text": "",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/ency/article/000811.htm"
+        },
+        {
+          "title": "Alternative Therapy for Patients With Obstructive Sleep Apnea/Hypopnea Syndrome",
+          "text": "Randomized Controlled Trial Altern Ther Health Med.2017 Jul;23(4):16-24.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28646811/"
+        }
+      ]
+    },
+    {
+      "text": "Sleep apnea can be prevented by losing weight and keeping it down with diet and exercise; quitting alcohol and smoking and changing sleep position.",
+      "ref": [
+          {
+          "title": "Obstructive sleep apnea - adults",
+          "text": "",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/ency/article/000811.htm"
+        },
+        {
+          "title": "Cultivating Lifestyle Transformations in Obstructive Sleep Apnea",
+          "text": "Review in Cureus.2021 Jan 26; Dentistry, California Institute of Behavioral Neurosciences & Psychology, Fairfield, USA; Dentistry, Ragas Dental College, Chennai, IND.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33659106/"
+        }
+      ]
+    },
+    {
+      "text": "Continuous Positive Airway Pressure (CPAP, a machine that uses mild air pressure to keep breathing airways open while you sleep) is the standard treatment for obstructive sleep apnea (OSA)",
+      "ref": [
+          {
+          "title": "Treating OSA: Current and emerging therapies beyond CPAP",
+          "text": "",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28901030/"
+        },
+        {
+          "title": "Investigation of the Effectiveness of Traditional Breathing Therapy on Pulmonary Function in College Students with Obstructive Sleep Apnea",
+          "text": "",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35909585/"
+        }
+      ]
+    },
+    {
+      "text": "Chinese massage Tui Na, dental treatments to change teeth and jaw position and exercises for tongue and throat reduce snoring and apnea.",
+      "ref": [
+          {
+          "title": "Sleep apnoea",
+          "text": "",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12693795/"
+        },
+        {
+          "title": "SLEEP APNEA - Treatment",
+          "text": "",
+          "corpus": "nhlbi",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment"
+        }
+      ]
+    },
+    {
+      "text": "Treatments with drugs, nerve stimulation and surgery were also suggested.",
+      "ref":[
+          {
+          "title": "Thirty-five alternatives to positive airway pressure therapy for obstructive sleep apnea",
+          "text": "",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30204000/"
+        },
+        {
+          "title": "New and unconventional treatments for obstructive sleep apnea",
+          "text": "",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22987061/"
+        }
+      ]
+    },
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Sleep ApneaTreatment ",
+      "url": "https://www.sleepfoundation.org/ sleep-apnea/treatment"
+    },
+    {
+      "name": "image2",
+      "title": "Snoring",
+      "url": "https://medlineplus.gov/ency/anatomyvideos/000119.htm"
+    },
+    {
+      "name": "image3",
+      "title": "A novel implantable device for a minimally invasive surgical treatment of obstructive sleep apnea",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC4959767_nss-8-249Fig2&query=&req=4"
+    }    
+  ],
+  "related-info":[
+     {
+          "title": "Obstructive sleep apnea - adults",
+          "text": "",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/ency/article/000811.htm"
+        },
+        {
+          "title": "SLEEP APNEA - Treatment",
+          "text": "",
+          "corpus": "nhlbi",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment"
+        }
+
+  ],
+  "clinical-evidence":[
+  {
+    "title": "Sleep apnoea",
+    "text": "Guideline in Respir Med. 2003 Apr; Hospital District of Helsinki and Uusimaa, Finland.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12693795/"
+  },
+  {
+    "title": "New and unconventional treatments for obstructive sleep apnea",
+    "text": "Review in Neurotherapeutics. 2012 Oct 9; Department of Pulmonary, Critical Care & Sleep Medicine, UC Davis Medical Center, Sacramento, CA, USA.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22987061/"
+  },
+  {
+    "title": "Myofunctional Therapy to Treat Obstructive Sleep Apnea",
+    "text": "Review in Sleep. 2015 May 1; Department of Psychiatry, Division of Sleep Medicine, Stanford Hospital and Clinics, Redwood City, CA.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25348130/"
+  },
+  {
+    "title": "Alternative Therapy for Patients With Obstructive Sleep Apnea/Hypopnea Syndrome",
+    "text": "Randomized Controlled Trial Altern Ther Health Med.2017 Jul 23;",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28646811/"
+  },
+  {
+    "title": "Diet and exercise in the management of obstructive sleep apnoea and cardiovascular disease risk",
+    "text": "Review in Eur Respir Rev. 2017 Jun 28; Dept of Kinesiology, Towson University, Towson, MD, USA ddobrosielski@towson.edu",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28659501/"
+  },
+  {
+    "title": "Treating OSA: Current and emerging therapies beyond CPAP",
+    "text": "Review in Respirology. 2017 Nov 22; Sleep Laboratory, Pulmonary Division, Heart Institute, Faculty of Medicine, University of Sao Paulo, Sao Paulo, Brazil.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28901030/"
+  },
+  {
+    "title": "Thirty-five alternatives to positive airway pressure therapy for obstructive sleep apnea",
+    "text": "Expert Rev Respir Med. 2018 Nov 12; Department of Otolaryngology-Head and Neck Surgery, Division of Sleep Surgery and Medicine , Tripler Army Medical Center , Honolulu , HI , USA.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30204000/"
+  },
+  {
+    "title": "Cultivating Lifestyle Transformations in Obstructive Sleep Apnea",
+    "text": "Review in Cureus.2021 Jan 26; Dentistry, California Institute of Behavioral Neurosciences & Psychology, Fairfield, USA; Dentistry, Ragas Dental College, Chennai, IND.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33659106/"
+  },
+  {
+    "title": "Investigation of the Effectiveness of Traditional Breathing Therapy on Pulmonary Function in College Students with Obstructive Sleep Apnea",
+    "text": "Randomized Controlled Trial in Contrast Media Mol Imaging. 2022 Jul 15; Capital University of Physical Education and Sports, 100191, Beijing, China.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35909585/"
+  },
+  {
+    "title": "Australasian Sleep Association position statement on consensus and evidence based treatment for primary snoring",
+    "text": "Editorial in Respirology 2023 Feb 28; Otolaryngology Head and Neck Surgery Department, The Wollongong Hospital, Wollongong, New South Wales, Australia",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36617387/"
+  }
+],
+  "task":[
+    {
+      "question":"Given the answers about sleep apnea you found at the NLM site, what will you recommend your relative does:",
+      "options":[
+        "Changes his lifestyle (diet, exercise, sleep position)",
+        "Give CPAP a try",
+        "See a dentist to change the jaw and teeth position  ",
+        "Find a Chinese massage specialist ",
+        "Ask his doctor for medications",
+        "Ask his doctor for a referral for corrective surgery "
+      ]
+    }
+  ]
+}

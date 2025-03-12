@@ -1,0 +1,162 @@
+{
+  "questionID":"129",
+  "introduction":"You aunt has been taking metoprolol to control her blood pressure for many years. Recently, she is complaining about experiencing lightheadedness. She believes it's caused by metoprolol and decided to stop taking the drug. You are worried this can cause serious problems. You are looking for information that will help you convince your aunt to keep taking the drug till she discusses the issue with her doctor.",
+  "question": "What are side effects for suddenly stopping metoprolol?",
+  "answers": [    
+    {
+      "text": "Suddenly stopping metropolis may cause withdrawal symptoms and heart problems, return of high blood pressure.",
+      "ref": [
+        {
+          "title": "Metoprolol",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/druginfo/meds/a682864.html"
+        },
+        {
+          "title": "How and when to take metoprolol",
+          "corpus": "nhs",
+          "url": "https://www.nhs.uk/medicines/metoprolol/how-and-when-to-take-metoprolol/"
+        }
+      ]
+    },
+    {
+      "text": "Withdrawal symptoms include fast heartbeat, headache, agitation, nausea, heart palpitations and shaking.",
+      "ref": [
+        {
+          "title": "Metoprolol: Drug information",
+          "corpus": "uptodatefree",
+          "url": "https://pro.uptodatefree.ir/Show/9645"
+        },
+        {
+          "title": "Withdrawal syndrome following cessation of antihypertensive drug therapy",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15857353/"
+        }
+      ]
+    },
+    {
+      "text": "Patients with severe heart problems may die.",
+      "ref": [
+        {
+          "title": "Can beta-blocker therapy be withdrawn from patients with dilated cardiomyopathy?",
+          "text": "Am Heart J. 1999 Sep; Division of Cardiology, Department of Internal Medicine, Fujita Health University School of Medicine, Toyoake, Aichi, Japan.",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10467195/"
+        }
+      ]
+    },
+    {
+      "text": "These withdrawal effects may be prevented by gradual withdrawal on a prolonged small dose of metoprolol.",
+      "ref": [
+        {
+          "title": "Metoprolol",
+          "corpus": "medlineplus",
+          "url": "https://medlineplus.gov/druginfo/meds/a682864.html"
+        },
+        {
+          "title": "Comparison of withdrawal phenomena after propranolol, metoprolol and pindolol",
+          "text": "Comparative Study in Br J Clin Pharmacol. 1982",
+          "corpus": "pubmed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6125187/"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "image1",
+      "title": "Neutrophil stunning by metoprolol reduces infarct size",
+      "url": "https://openi.nlm.nih.gov/detailedresult?img=PMC5399300_ncomms14780-f1"
+    },
+    {
+      "name": "image2",
+      "title": "Metoprolol",
+      "url": "https://medlineplus.gov/druginfo/meds/a682864.html"
+    },
+    {
+      "name": "image3",
+      "title": "Beta Blockers",
+      "url": "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/beta-blockers/art-20044522"
+    }    
+  ],
+  "related-info":[
+    {
+      "title": "Metoprolol",
+      "corpus": "medlineplus",
+      "url": "https://medlineplus.gov/druginfo/meds/a682864.html"
+    },
+    {
+      "title": "How and when to take metoprolol",
+      "corpus": "nhs",
+      "url": "https://www.nhs.uk/medicines/metoprolol/how-and-when-to-take-metoprolol/"
+    },
+    {
+      "title": "Metoprolol: Drug information",
+      "corpus": "uptodatefree",
+      "url": "https://pro.uptodatefree.ir/Show/9645"
+    }
+  ],
+  "clinical-evidence":[
+    {
+      "title": "Withdrawal syndrome following cessation of antihypertensive drug therapy",
+      "text": "Review in Int J Clin Pract. 2005 May; Department of Medicine, Red Cross Hospital, Athens, Greece.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15857353/"
+    },
+    {
+      "title": "Comparison of withdrawal phenomena after propranolol, metoprolol, and pindolol",
+      "text": "Clinical Trial in Am Heart J. 1982 Aug",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7102534/"
+    },
+    {
+      "title": "Abrupt withdrawal of beta-blocking agents in patients with arterial hypertension. Effect on blood pressure, heart rate and plasma catecholamines and prolactin",
+      "text": "Clinical Trial in Eur J Clin Pharmacol. 1979 Apr 17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37093/"
+    },
+    {
+      "title": "Metoprolol withdrawal phenomena: mechanism and prevention",
+      "text": "Clin Pharmacol Ther. 1982 Jan",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7053309/"
+    },
+    {
+      "title": "Abrupt withdrawal of pindolol or metoprolol after chronic therapy",
+      "text": "Clinical Trial in Br J Clin Pharmacol. 1982",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7104154/"
+    },
+    {
+      "title": "Withdrawal syndrome following cessation of antihypertensive drug therapy",
+      "text": "Review in Int J Clin Pract. 2005 May; Department of Medicine, Red Cross Hospital, Athens, Greece.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15857353/"
+    },
+    {
+      "title": "Rebound hypertension following abrupt cessation of clonidine and metoprolol. Treatment with labetalol",
+      "text": "Case Reports in Arch Intern Med. 1987 Feb",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3813760/"
+    },
+    {
+      "title": "Comparison of withdrawal phenomena after propranolol, metoprolol and pindolol",
+      "text": "Comparative Study in Br J Clin Pharmacol. 1982",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6125187/"
+    },
+    {
+      "title": "Transient left ventricular apical ballooning syndrome caused by abrupt metoprolol withdrawal",
+      "text": "Case Reports in Int J Cardiol. 2008 Dec 17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17949833/"
+    },
+    {
+      "title": "Can beta-blocker therapy be withdrawn from patients with dilated cardiomyopathy?",
+      "text": "Am Heart J. 1999 Sep; Division of Cardiology, Department of Internal Medicine, Fujita Health University School of Medicine, Toyoake, Aichi, Japan.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10467195/"
+    }
+  ],
+  "task":[
+    {
+      "question":"The answers about metoprolol you found at the NLM site:",
+      "options":[
+        "Gave you enough information to explain to your aunt the dangers of abruptly stopping the drug",
+        "Convinced you stopping the drug may be life-threatening",
+        "Explained the relation between the liver enzyme tests and liver damage",
+        "Made you insist your aunt should see the doctor immediately",
+        "Reassured you stopping the drug is not dangerous and you should let the decision to your aunt"
+      ]
+    }
+  ]
+}
